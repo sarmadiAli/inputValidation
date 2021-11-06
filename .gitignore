@@ -1,0 +1,68 @@
+# dependencies
+/React-ui/node_modules
+
+# testing
+/React-ui/coverage
+
+# production
+/React-ui/build
+
+# misc
+/React-ui.DS_Store
+/React-ui.env.local
+/React-ui.env.development.local
+/React-ui.env.test.local
+/React-ui.env.production.local
+
+/.idea
+/.vscode
+
+/React-ui/src/styles/tailwind.css
+
+/React-uinpm-debug.log*
+/React-uiyarn-debug.log*
+/React-uiyarn-error.log*
+
+#Moqui framework
+# separate addons file to add/override components
+/Moqui-framework/cmyaddons.xml
+
+# gradle/build files
+/Moqui-framework/*/build
+/Moqui-framework/.gradle
+/Moqui-framework/framework/dependencies
+/Moqui-framework/framework/lib
+
+# build generated files
+/Moqui-framework/moqui*.war
+/Moqui-framework/Save*.zip
+
+# runtime directory (separate repository so ignore directory entirely)
+/Moqui-framework/execwartmp
+/Moqui-framework/docker/runtime
+/Moqui-framework/docker/db
+
+# IntelliJ IDEA files
+out
+*.ipr
+*.iws
+*.iml
+
+# OSX auto files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux auto files
+*~
+
+# log files
+/Moqui-framework/runtime/log/*.log
+/Moqui-framework/runtime/txlog
+/Moqui-framework/runtime/elasticsearch
+/Moqui-framework/runtime/sessions
+/Moqui-framework/component/moqui-camel/
+/Moqui-framework/component/moqui-fop/
+/Moqui-framework/component/moqui-poi/
+node_modules
